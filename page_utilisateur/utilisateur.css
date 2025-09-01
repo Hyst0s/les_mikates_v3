@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/description_plat/background.png);
+  background-size: cover;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; /* coin gauche - centre - coin droit */
+}
+
+.imgcoin,
+.imgcoin1 {
+  width: 100px; /* fixe ou responsive */
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.imgcoin {
+  transform: scaleX(-1); /* miroir horizontal */
+}
+
+.lien {
+    width: 100%;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.lien ul {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin-right: 5%;
+  font-family: 'Passion One', cursive;
+  font-size: 1.8rem;
+  white-space: nowrap;
+}
+
+.lien ul li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.icon{
+    position: absolute;
+    right: 10%;
+    width: 10%;
+    margin-top: 6.5%;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+/* ----------section1----------- */
+
+.titre{
+  width: 100%;
+  height: 50px;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poly', sans-serif;
+  font-size: 25px;
+  color: #953910;
+}
+
+.container1{
+  width: 100%;
+  height: 800px;
+  margin-top: 10%;
+  display: flex;
+  background-color: #953910;
+}
+
+.container1_div1{
+  width: 40%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.menu{
+  width: 50%;
+  height: 800px;
+  border-radius: 40px;
+  background-color: #371708;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu img{
+  width: 20%;
+  margin-top: 5%;
+}
+
+.menu h1{
+  font-family: 'Poly', sans-serif;
+  color: #FFBC79;
+  margin-top: 30%;
+}
+
+.container1_div2{
+  width: 60%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titre2{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poly', sans-serif;
+  color: #FFBC79;
+  font-size: 27px;
+}
+
+.container_box{
+  width: 100%;
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: 'Passion One', cursive;;
+  gap: 30px;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #F9B975; /* beige/orangé */
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  max-width: 500px;
+  max-height: 200px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #2E1B0E; /* marron foncé */
+}
+
+.statut {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.statut.en-cours {
+  color: white;
+}
+
+.statut.livree {
+  color: #602313;
+}
+
+.statut.annulee {
+  color: #5190A9;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 18px;
+  color: #CC1F1F; /* rouge foncé */
+}
+
+/* ------------footer--------------- */
+
+footer{
+  width: 100%;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Passion One';
+  color: #371708;
+}
+
+
+.elements{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 8%;
+}
+
+.logo img{
+  margin-top: 5%;
+  width: 150%;
+}
+
+.icon_reseau{
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.liens_reseaux ul li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.liens_reseaux ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #371708;
+}
+
+.div_footer3 h4{
+  font-size: 20px;
+}
