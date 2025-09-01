@@ -26,6 +26,10 @@
         echo "<link rel='stylesheet' type='text/css' href='" . CSS_PATH . "../styles/description_plat.css'>";
         } elseif ($page === 'utilisateur.php') {
         echo "<link rel='stylesheet' type='text/css' href='" . CSS_PATH . "../styles/utilisateur.css'>";
+        } elseif ($page === 'inscription.php') {
+        echo "<link rel='stylesheet' type='text/css' href='" . CSS_PATH . "../styles/inscription.css'>";
+        } elseif ($page === 'se_connecter.php') {
+        echo "<link rel='stylesheet' type='text/css' href='" . CSS_PATH . "../styles/se_connecter.css'>";
         }
     ?>
     
