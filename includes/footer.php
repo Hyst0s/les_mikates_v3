@@ -1,3 +1,17 @@
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../includes/header.css">
+    <link rel="stylesheet" href="../includes/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poly:ital@0;1&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Les mikatés de Betti</title>
+</head>
+  
+  
   <footer>
   <div class="text4">
     <h1>Restez informé(e) de nos nouveautés !</h1>
@@ -13,10 +27,10 @@
   <div class="liens_reseaux">
     <ul>
       <li><a href="index.html">Accueil</a></li>
-      <li><a href="../mon_histoire\mon_histoire.html">Mon histoire</a></li>
-      <li><a href="../mes_produits\mes_produits.html">Nos produits</a></li>
-      <li><a href="../commander\commander.html">Commander</a></li>
-      <li><a href="../contact\contact.html">Contact</a></li>
+      <li><a href="../mon_histoire\mon_histoire.php">Mon histoire</a></li>
+      <li><a href="../mes_produits\mes_produits.php">Nos produits</a></li>
+      <li><a href="../commander\commander.php">Commander</a></li>
+      <li><a href="../contact\contact.php">Contact</a></li>
     </ul>
   </div>
 

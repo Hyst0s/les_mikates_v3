@@ -17,7 +17,7 @@
         } elseif ($page === 'mon_histoire.php') {
         echo "<link rel='stylesheet' type='text/css' href='" . CSS_PATH . "../styles/mon_histoire.css'>";
         } elseif ($page === 'mes_produits.php') {
-        echo "<link rel='stylesheet' type='text/css' href='" . CSS_PATH . "../styles/es_produits.css'>";
+        echo "<link rel='stylesheet' type='text/css' href='" . CSS_PATH . "../styles/mes_produits.css'>";
         } elseif ($page === 'contact.php') {
         echo "<link rel='stylesheet' type='text/css' href='" . CSS_PATH . "../styles/contact.css'>";
         } elseif ($page === 'commander.php') {
@@ -44,16 +44,16 @@
 
     <nav class="lien">
       <ul>
-        <li><a href="mon_histoire/mon_histoire.html">Mon Histoire</a></li>
-        <li><a href="mes_produits/mes_produits.html">Mes produits</a></li>
+        <li><a href="../mon_histoire/mon_histoire.php">Mon Histoire</a></li>
+        <li><a href="../mes_produits/mes_produits.php">Mes produits</a></li>
         <li><a href="../index.php"><img src="../images/accueil/ChatGPT_Image_28_mai_2025__13_56_47-removebg-preview 1.png" alt=""></a></li>
-        <li><a href="commander\commander.html">Commander</a></li>
-        <li><a href="contact\contact.html">Contact</a></li>
+        <li><a href="../commander\commander.html">Commander</a></li>
+        <li><a href="../contact\contact.php">Contact</a></li>
       </ul>
     </nav>
 
     <div class="icon">
-        <a href="page_utilisateur\utilisateur.php"><img src="../images/accueil/union-1.png" alt=""></a>
+        <a href="../page_utilisateur\utilisateur.php"><img src="../images/accueil/union-1.png" alt=""></a>
         <a href=""><img src="../images/accueil/shopping-basket 1.png" alt=""></a>
     </div>
 
