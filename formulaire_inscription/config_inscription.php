@@ -1,6 +1,6 @@
 <?php
 
-include '../database/config.php';
+include '../bdd/connex_bdd.php';
 
 $nom = $_POST['nom'];
 $prenom = $_POST['prenom'];
@@ -18,7 +18,7 @@ $sql = "INSERT INTO utilisateur (nom, prenom, email, pseudo, mot_de_passe)
 VALUES ('$nom', '$prenom', '$email', '$pseudo', '$mot_de_passe')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Inscription réussie. Vous pouvez mainteant vous connecter.";
+    echo "Inscription réussie. Vous pouvez maintenant vous connecter.";
    } else {
     echo "Erreur: lors de l'inscription : " . $conn->error;
    }
