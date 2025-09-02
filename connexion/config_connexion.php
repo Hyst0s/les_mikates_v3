@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($email === '' || $mot_de_passe === '') {
         // Idéalement: stocker un message en session et rediriger vers la page de login
-        echo "Veuillez renseigner l'email et le mot de passe.";
+        header ("location: ../page_utilisateur/utilisateur.php");
         exit;
     }
 

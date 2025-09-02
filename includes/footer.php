@@ -14,8 +14,8 @@
 
   <div class="liens_reseaux">
     <ul>
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="../mon_histoire\mon_histoire.php">Mon histoire</a></li>
+      <li><a href="../index.php">Accueil</a></li>
+      <li><a href="../mon_histoire\mon_histoire.php" >Mon histoire</a></li>
       <li><a href="../mes_produits\mes_produits.php">Nos produits</a></li>
       <li><a href="../commander\commander.php">Commander</a></li>
       <li><a href="../contact\contact.php">Contact</a></li>
@@ -48,9 +48,9 @@
   <div class="div_footer4">
     <h1 style="margin-bottom: 15%;">La tradition dans chaque plat.</h1>
     <div class="icon_reseau">
-      <a href=""><img src="../images\accueil\facebook_logo.png" alt=""></a>
-      <a href=""><img src="../images\accueil\instagram 1.png" alt=""></a>
-      <a href=""><img src="../images\accueil\youtube.png" alt=""></a>
+      <a href="https://www.facebook.com/share/177yBt8PgQ/" target="_blank"><img src="../images\accueil\facebook_logo.png" alt=""></a>
+      <a href="https://www.instagram.com/betti_auquotidien?igsh=MWprcnplb2Y2NjBsZw==" target="_blank"><img src="../images\accueil\instagram 1.png" alt=""></a>
+      <a href="https://youtube.com/@bettinak-desruisseaux?si=9H1zPiBgy27IRKWZ" target="_blank"><img src="../images\accueil\youtube.png" alt=""></a>
     </div>
     <h3 style="margin-top: 15%;">© 2025 – Tous droits réservés – Les mikatés de Betti <br><br>
         En utilisant ce site, vous acceptez nos conditions <br> d’utilisation et notre politique de confidentialité.</h3>

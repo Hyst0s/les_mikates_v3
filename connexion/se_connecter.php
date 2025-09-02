@@ -3,7 +3,7 @@
 <main class="card" role="main" aria-labelledby="titre">
     <h1 id="titre" class="title">Connexion</h1>
 
-    <form action="../bdd/config_connexion.php" method="post" enctype="multipart/form-data">
+    <form action="../connexion/config_connexion.php" method="post" enctype="multipart/form-data">
       <div class="field">
         <label for="email">Adresse mail</label>
         <input id="email" name="email" type="email" placeholder="Adresse mail" required autocomplete="email" inputmode="email">

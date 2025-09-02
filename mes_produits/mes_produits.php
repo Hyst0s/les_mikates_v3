@@ -27,8 +27,8 @@
             <strong>Prix :</strong> 5€ les 10 nature / 7€ les 10 aromatisé</p>
             
             <div class="boutons">
-              <button class="ajouter">Ajouter</button>
-              <button class="voir-plus">Voir Plus</button>
+              <a href="" class="ajouter">Ajouter</a>
+              <a href="../description_plat\description_plat.php" class="voir-plus">Voir plus</a>
             </div>
           </div>
         </div>
