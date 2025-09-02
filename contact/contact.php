@@ -81,11 +81,11 @@
   </div>
 </section>
 
+</main>
+
 <!----------------------------Footer------------------------------------------------->
 
 <?php include("../includes/footer.php"); ?>
-
-</main>
   
 </body>
 </html>

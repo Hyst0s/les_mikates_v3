@@ -29,7 +29,7 @@
   </div>
 
   <div class="button">
-      <a href=""><button class="button_plat">Découvrez nos plats</button></a>
+      <a href="../mes_produits\mes_produits.php"><button class="button_plat">Découvrez nos plats</button></a>
   </div>
 </section>
 
@@ -50,7 +50,7 @@
         histoire, chaque assiette invite au voyage.</h3>
         <br>
         <br>
-    <a href="" class="btn-section3">A propos</a>
+    <a href="../mon_histoire\mon_histoire.php" class="btn-section3">A propos</a>
   </div>
 
   <div class="image_accueil1">
@@ -75,7 +75,7 @@
 <!----------------------------Section 5------------------------------------------------->
 
 <section class="section5">
-  <a href="">Commandez maintenant !</a>
+  <a href="../mes_produits\mes_produits.php">Commandez maintenant !</a>
 </section>
 
 <!----------------------------Section 6------------------------------------------------->

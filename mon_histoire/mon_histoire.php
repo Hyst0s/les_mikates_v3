@@ -99,7 +99,7 @@
                     vous répondre !
                </h3>
 
-               <a href="">Me contacter</a>
+               <a href="../contact\contact.php">Me contacter</a>
         </div>
 
         <div class="section4_img2">
