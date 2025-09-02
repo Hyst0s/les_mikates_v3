@@ -41,28 +41,29 @@
 <body>
   <header>
     <div class="container">
-    <div></div>
-    <div class="imgcoin1">
-      <img src="../images/accueil/ChatGPT_Image_29_mai_2025__16_36_04-removebg-preview 4.png" alt="">
+
+    <div class="imgcoin">
+      <img src="../images\accueil\image_coin_header.png" alt="">
     </div>
 
     <nav class="lien">
       <ul>
         <li><a href="../mon_histoire/mon_histoire.php">Mon Histoire</a></li>
         <li><a href="../mes_produits/mes_produits.php">Mes produits</a></li>
-        <li><a href="../index.php"><img src="../images/accueil/ChatGPT_Image_28_mai_2025__13_56_47-removebg-preview 1.png" alt=""></a></li>
-        <li><a href="../commander\commander.html">Commander</a></li>
-        <li><a href="../contact\contact.php">Contact</a></li>
+        <li><a href="../index.php"><img src="../images\accueil\logo_mikate.png" alt=""></a></li>
+        <li><a href="../commander/commander.php">Commander</a></li>
+        <li><a href="../contact/contact.php">Contact</a></li>
+        <div class="icon">
+        <a href="../page_utilisateur/utilisateur.php"><img src="../images/accueil/union-1.png" alt=""></a>
+        <a href="../commander/commander.php"><img src="../images/accueil/shopping-basket 1.png" alt=""></a>
+    </div>
       </ul>
     </nav>
 
-    <div class="icon">
-        <a href="../page_utilisateur\utilisateur.php"><img src="../images/accueil/union-1.png" alt=""></a>
-        <a href=""><img src="../images/accueil/shopping-basket 1.png" alt=""></a>
-    </div>
+    
 
-    <div class="imgcoin">
-      <img src="../images/accueil/ChatGPT_Image_29_mai_2025__16_36_04-removebg-preview 4.png" alt="">
+    <div class="imgcoin" id="imgcoin1">
+      <img src="../images\accueil\image_coin_header.png" alt="">
     </div>
   </div>
   </header>
