@@ -18,6 +18,13 @@
   --focus: rgba(255, 122, 26, .35);
 }
 
+body{
+    background-image: url(../images/accueil/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .card{
   width:min(92vw, 600px);

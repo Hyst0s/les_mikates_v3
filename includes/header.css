@@ -57,9 +57,10 @@ html,body {
 
 .icon{
     position: relative;
-    left: 20%;
+    left: 10%;
     width: 10%;
     display: flex;
     justify-content: center;
     gap: 40%;
+    
 }

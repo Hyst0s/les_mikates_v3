@@ -9,7 +9,7 @@
 
   <div class="elements">
     <div class="logo">
-     <a href=""><img src="../images\accueil\ChatGPT_Image_28_mai_2025__13_56_47-removebg-preview 1.png" alt=""></a>
+     <a href=""><img src="../images\accueil\logo_mikate.png" alt=""></a>
     </div>
 
   <div class="liens_reseaux">

@@ -19,7 +19,7 @@
       <h1>Informations générales</h1>
       <h1>Mes commandes</h1>
       <h1>Mes plats favoris</h1>
-      <h1>Déconnexion</h1>
+      <a href="../connexion\deconnexion.php">Déconnexion</a>
     </div>
     
   </div>

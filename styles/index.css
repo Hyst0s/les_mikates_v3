@@ -1,3 +1,10 @@
+body{
+    background-image: url(../images/accueil/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 /* --------section1-------- */
 
 .section1{

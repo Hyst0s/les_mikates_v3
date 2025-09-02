@@ -54,7 +54,7 @@
         <li><a href="../commander/commander.php">Commander</a></li>
         <li><a href="../contact/contact.php">Contact</a></li>
         <div class="icon">
-        <a href="../page_utilisateur/utilisateur.php"><img src="../images/accueil/union-1.png" alt=""></a>
+        <a href="../connexion\se_connecter.php"><img src="../images/accueil/union-1.png" alt=""></a>
         <a href="../commander/commander.php"><img src="../images/accueil/shopping-basket 1.png" alt=""></a>
     </div>
       </ul>
@@ -63,7 +63,7 @@
     
 
     <div class="imgcoin" id="imgcoin1">
-      <img src="../images\accueil\image_coin_header.png" alt="">
+      <img src="../images/accueil/image_coin_header.png" alt="">
     </div>
   </div>
   </header>
