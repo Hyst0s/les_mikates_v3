@@ -112,6 +112,10 @@ margin-left: 5%;
 text-align: center;
 }
 
+.text2 h1{
+  font-family: 'Pacifico', cursive;
+}
+
 .btn-section3{
   display: inline-block;
   width: 250px;

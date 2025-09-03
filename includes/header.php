@@ -35,7 +35,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poly:ital@0;1&family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Passion+One:wght@400;700;900&family=Poly:ital@0;1&display=swap" rel="stylesheet">
     <title>Les mikatés de Betti</title>
 </head>
 <body>
